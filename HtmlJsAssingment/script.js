@@ -1,11 +1,14 @@
 // Add new todo task to todoList
 function addTodo() {
     // TODO: Get the value from todoInput element
-
+    var todoInput = document.getElementsByTagName("todoInput");
+for (var i = 0; i < inputs.length; i++) {
+  alert(todoInput[i].id);
+}
     // TODO: Check that input value was provided
 
     // TODO: Get todoList element from html and assign it to variable
-
+    var list = document.getElementById('todoList');
     // TODO: Create new li element and assign it to variable
 
     // TODO: Assing the todoInput value to the textContent
